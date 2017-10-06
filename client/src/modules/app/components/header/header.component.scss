@@ -1,0 +1,19 @@
+@import '../../../../styles/utils';
+
+:host {
+  @include component();
+  min-height: 50px;
+  align-items: center;
+  flex-grow: 0;
+}
+
+.logo {
+  background-image: url(../../../../assets/zurich-logo.svg);
+  width: 35px;
+  height: 35px;
+  margin-left: $gap / 2;
+}
+
+.brand {
+  margin-left: $gap / 2;
+}

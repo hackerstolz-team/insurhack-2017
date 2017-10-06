@@ -1,0 +1,10 @@
+@import '../../../../styles/utils';
+
+:host {
+  @include component();
+  flex-direction: column;
+}
+
+.content-container {
+  @include component();
+}
